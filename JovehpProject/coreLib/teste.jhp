@@ -1,0 +1,6 @@
+void func $main(array[string] #args) {
+integer #i = 0;
+for (integer #i = 0; #i < 10; #i++) {
+return #i;
+}
+}
