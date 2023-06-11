@@ -6,7 +6,7 @@ Made with Python.
 
 ## Syntax
 
-The syntax of this will be verbose in some parts, more "symbolic" in others. see a prototyped syntax below:
+The language syntax will be verbose in some parts, and more "symbolic" in others. see a prototyped syntax below:
 
 ```
 ## lines starting with two hashtags are comments
