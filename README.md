@@ -35,3 +35,17 @@ echo[output=>"console"] f"Hello %test5 !";
 
 ```
 it will be better in the future, but, currently, is it.
+
+
+## Known errors and bugs
+
+it have some errors, such:
+  1: it doesn't recognize variables in for and for-every statements;
+
+  2: it throws syntax error in situations that not're expected to this happen;
+
+  3: it cannot declare variable in a function scope;
+
+  4: currently it not have a target-language to transpile. suggestions are accepted ^-^;
+
+  Currently, it are the errors that I can remember now. You found more errors? talk with the dev (the same person that is writting this README)
