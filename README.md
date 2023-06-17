@@ -42,7 +42,7 @@ it will be better in the future, but, currently, is it.
 it have some errors, such:
   1: it doesn't recognize variables in for and for-every statements;
 
-  2: it throws syntax errors in uexpected situations;
+  2: it throws syntax errors in unexpected situations;
 
   3: it cannot declare variable in a function scope;
 
