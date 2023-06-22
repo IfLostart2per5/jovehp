@@ -90,3 +90,129 @@ $twenty = 21;
 
 ```
 
+## Operators
+
+So... it'll have the must common operators in languages, such '*' for multiplication, '/' for divide, '+' for plus, "**" for power and more.
+
+### Arimetics
+
+everything is better with examples, yep?
+
+```
+integer $x, $y = 30, 11;
+integer #x;
+
+
+##adding numbers
+#x = $x + $y;
+##results to 41
+
+##multiplying numbers
+#x = $x * $y;
+##results to 330
+
+##dividing numbers
+#x = $x / $y;
+##results to 2 (*1)
+
+#subtracting numbers
+#x = $x - $y;
+##results to 19
+
+##raising x to power of y
+#x = $x ** $y;
+##results to 1,77147000e+16
+
+##rest/module operator below
+#x = $x % $y;
+#results to 8
+```
+notes:
+  1: if you use the division operator in integers, you must have to convert it to be a float/double, else, you'll only receive the integer part of the result.
+  I'll explain this later.
+
+
+## Conditional
+these operators will return true|false, like other languages
+
+```
+integer $x = 5;
+integer $y = 3;
+boolean #result;
+
+
+
+##greater than
+#result = $x > $y;
+##results to true
+
+##less than
+#result = $x < $y;
+##results to false
+
+##less or equals
+#result = $x <= $y;
+##results to false
+
+##greater or equals
+#result = $x >= $y;
+##results to true
+
+##equals
+#result = $x == $y;
+##results to false
+
+##not equals
+#result = $x != $y;
+##results to true
+```
+
+Any errors talk with the dev or make a issue ;)
+
+
+### Bitwise
+C'mooooon! you'll not resists for these bitwise operators :D
+They can be used for both bits and expressions.
+
+```
+``
+study logic operations for this
+``
+integer $bit1 = 1;
+integer $bit2 = 0;
+boolean #result;
+
+##and operation
+#result = $bit1 & $bit2;
+##results to false
+
+##or operation
+#result = $bit1 | $bit2;
+##results to true
+
+##not operation (*1)
+#result = !$bit1;
+##results to false
+#result = !$bit2;
+##results to true
+
+##xor operation
+#result = $bit1 ^ $bit2
+##results to true
+
+``
+wanna use the not variants of these operators? agroup it in a expression and use the not operator on it, example
+``
+#result = !($bit1 ^ $bit2);
+##results to false
+```
+
+notes:
+  1: it will be more adapttative. defaultly, it will return your type equivalent, example:
+  ```
+integer $value = !1;
+##results to 0
+boolean $otherValue = !1;
+##results to false
+```
+
